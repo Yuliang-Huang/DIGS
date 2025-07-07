@@ -4,14 +4,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - cudatoolkit=11.6
-  - plyfile
   - python=3.9
   - pip=22.3.1
-  - pytorch=1.12.1
-  - torchvision=0.13.1
   - mkl==2024.0
-  - numpy==1.24.1
+  - numpy==2.0.0
   - tqdm
   - tensorboard
   - tensorboardX
