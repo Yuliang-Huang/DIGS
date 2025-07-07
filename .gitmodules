@@ -1,0 +1,9 @@
+[submodule ".\\digs\\submodules\\fast-free-form-deformation"]
+	path = .\\digs\\submodules\\fast-free-form-deformation
+	url = git@github.com:Yuliang-Huang/fast-free-form-deformation.git
+[submodule ".\\digs\\submodules\\simple-knn"]
+	path = .\\digs\\submodules\\simple-knn
+	url = https://gitlab.inria.fr/bkerbl/simple-knn.git
+[submodule ".\\digs\\submodules\\xray-gaussian-rasterization-voxelization\\third_party\\glm"]
+	path = .\\digs\\submodules\\xray-gaussian-rasterization-voxelization\\third_party\\glm
+	url = https://github.com/g-truc/glm.git

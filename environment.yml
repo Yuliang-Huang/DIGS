@@ -1,0 +1,35 @@
+name: digs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile
+  - python=3.9
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - mkl==2024.0
+  - numpy==1.24.1
+  - tqdm
+  - tensorboard
+  - tensorboardX
+  - pyyaml
+  - pip:
+    - opencv-python
+    - matplotlib
+    - pydicom
+    - tifffile
+    - imagecodecs
+    - pyvista
+    - SimpleITK
+    - scikit-image
+    - Cython==0.29.36
+    - open3d==0.18.0
+    - -e digs/submodules/simple-knn
+    - -e digs/submodules/fast-free-form-deformation
+    - -e digs/submodules/xray-gaussian-rasterization-voxelization
+    - itk
+    - itk-rtk
+    - nibabel
